@@ -1,0 +1,273 @@
+method_name_cn,method_name_en,object_type,applicable_problem_families,applicable_scenarios,priority_level,primary_or_alternative,required_data,minimum_validation,approval_required
+熵权法,"Entropy Weight Method",algorithm,评价,多指标综合评价（客观）,S,primary,指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+TOPSIS,TOPSIS,model,评价,多指标综合评价（客观）,S,primary,指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+变异系数法,"Coefficient of Variation Method",algorithm,评价,多指标综合评价（客观）,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+灰色关联分析,"Grey Relational Analysis",algorithm,评价,多指标综合评价（客观）,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+VIKOR,VIKOR,algorithm,评价,多指标综合评价（客观）,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+层次分析法（AHP）,"Analytic Hierarchy Process",model,评价,多指标综合评价（主观）,S,primary,指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+德尔菲法,Delphi Method,algorithm,评价,多指标综合评价（主观）,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+模糊层次分析,Fuzzy AHP,algorithm,评价,多指标综合评价（主观）,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+AHP-熵权组合,"Analytic Hierarchy Process",model,评价,多指标综合评价（混合）,S,primary,指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+博弈论组合赋权,"Game-theoretic Combination Weighting",algorithm,评价,多指标综合评价（混合）,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+主客观集成,"English name to be confirmed",algorithm,评价,多指标综合评价（混合）,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+数据包络分析（DEA）,"Data Envelopment Analysis",model,评价,效率评价,S,primary,指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+超效率DEA,"Data Envelopment Analysis",model,评价,效率评价,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+Malmquist指数,"Malmquist Index",metric,评价,效率评价,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+模糊综合评价,"Fuzzy Comprehensive Evaluation",metric,评价,风险评价; 质量评价,S,primary,指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+蒙特卡洛模拟,"Monte Carlo Simulation","simulation",评价,风险评价,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+VaR,Value at Risk,metric,评价; 金融建模,风险评价; 风险管理,S,"alternative; primary",指标矩阵、权重/偏好、被评价对象；DEA需投入产出 | 价格/收益序列、利率/波动率、相关性、约束,权重和为1、排序稳定性、敏感性或Bootstrap | 无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+贝叶斯网络,"Bayesian Network",model,评价; 关联分析,风险评价; 因果分析,B,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出 | 配对样本或交易记录；时间序列需时间戳,权重和为1、排序稳定性、敏感性或Bootstrap | 多重比较校正、滞后敏感性、规则留出验证,true
+灰色评价法,"Grey Evaluation Method",metric,评价,质量评价,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+云模型评价,Cloud Model,metric,评价,质量评价,A,"alternative",指标矩阵、权重/偏好、被评价对象；DEA需投入产出,权重和为1、排序稳定性、敏感性或Bootstrap,false
+单纯形法,Simplex Method,algorithm,优化,线性规划,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+线性规划,"Linear Programming",model,优化,线性规划; 分配问题,S,"primary; alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+内点法,"Interior-point Method",algorithm,优化,线性规划,A,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+对偶单纯形法,Simplex Method,algorithm,优化,线性规划,A,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+梯度下降法,"Gradient Descent",algorithm,优化,非线性规划,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+拟牛顿法,"Quasi-Newton Method",algorithm,优化,非线性规划,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+遗传算法,"Genetic Algorithm",algorithm,优化; 图论网络; 交通运输,非线性规划; 路径规划; 装箱问题; 调度问题; 旅行商问题（TSP）; 车辆路径（VRP）,S,"alternative; primary",目标函数、约束、资源/距离/容量数据 | 邻接表/矩阵、边权、容量、需求 | 路网、OD、车辆/容量/时间窗、交通流参数,逐条约束可行；与透明基线和小规模精确解比较 | 路径权重核算、流守恒容量、小规模最优基线 | 流守恒/容量/时间窗、基线比较、仿真或现场数据,true
+粒子群算法,"Particle Swarm Optimization",algorithm,优化,非线性规划; 调度问题,B,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,true
+模拟退火,"Simulated Annealing",algorithm,优化; 图论网络; 交通运输,非线性规划; 装箱问题; 旅行商问题（TSP）; 车辆路径（VRP）,S,"alternative; primary",目标函数、约束、资源/距离/容量数据 | 邻接表/矩阵、边权、容量、需求 | 路网、OD、车辆/容量/时间窗、交通流参数,逐条约束可行；与透明基线和小规模精确解比较 | 路径权重核算、流守恒容量、小规模最优基线 | 流守恒/容量/时间窗、基线比较、仿真或现场数据,true
+分支定界法,"Branch and Bound",algorithm,优化,整数规划; 0-1规划; 背包问题,S,"primary; alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+整数规划,"Integer Programming",model,优化,整数规划,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+动态规划,"Dynamic Programming",model,优化; 图论网络; 控制理论; 交通运输,整数规划; 0-1规划; 背包问题; 调度问题; 旅行商问题（TSP）; 最优控制; 路径选择,S,"alternative; primary",目标函数、约束、资源/距离/容量数据 | 邻接表/矩阵、边权、容量、需求 | 状态/观测、输入、噪声、约束和参考轨迹 | 路网、OD、车辆/容量/时间窗、交通流参数,逐条约束可行；与透明基线和小规模精确解比较 | 路径权重核算、流守恒容量、小规模最优基线 | 稳定性、扰动/噪声/饱和仿真、模型失配 | 流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+割平面法,"Cutting-plane Method",algorithm,优化,整数规划,A,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+贪心算法,Greedy Algorithm,algorithm,优化,0-1规划; 分配问题; 背包问题; 调度问题,S,"alternative; primary",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+启发式算法,"English name to be confirmed",algorithm,优化; 交通运输,0-1规划; 路径选择,A,"alternative",目标函数、约束、资源/距离/容量数据 | 路网、OD、车辆/容量/时间窗、交通流参数,逐条约束可行；与透明基线和小规模精确解比较 | 流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+加权求和法,"English name to be confirmed",algorithm,优化,多目标优化,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+NSGA-II,NSGA-II,algorithm,优化,多目标优化,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+约束法,"English name to be confirmed",algorithm,优化,多目标优化,A,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+MOEA/D,MOEA/D,algorithm,优化,多目标优化,A,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+理想点法,"English name to be confirmed",algorithm,优化,多目标优化,A,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+Dijkstra算法,Dijkstra's Algorithm,algorithm,优化,路径规划,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+A*算法,A* Search,algorithm,优化,路径规划,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+Floyd算法,Floyd–Warshall Algorithm,algorithm,优化,路径规划,A,"alternative",目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+蚁群算法,"Ant Colony Optimization",algorithm,优化; 图论网络; 交通运输,路径规划; 旅行商问题（TSP）; 车辆路径（VRP）,S,"alternative; primary",目标函数、约束、资源/距离/容量数据 | 邻接表/矩阵、边权、容量、需求 | 路网、OD、车辆/容量/时间窗、交通流参数,逐条约束可行；与透明基线和小规模精确解比较 | 路径权重核算、流守恒容量、小规模最优基线 | 流守恒/容量/时间窗、基线比较、仿真或现场数据,true
+匈牙利算法,"Hungarian Algorithm",algorithm,优化,分配问题,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+KM算法,"Kuhn–Munkres Algorithm",algorithm,优化,分配问题,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+0-1规划,"English name to be confirmed",model,优化,背包问题,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+首次适应算法,"English name to be confirmed",algorithm,优化,装箱问题,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+最佳适应算法,"English name to be confirmed",algorithm,优化,装箱问题,S,primary,目标函数、约束、资源/距离/容量数据,逐条约束可行；与透明基线和小规模精确解比较,false
+ARIMA,ARIMA,model,预测,时间序列（趋势型）,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+指数平滑,"Exponential Smoothing",metric,预测,时间序列（趋势型）; 数据很少（<10个）,S,"primary; alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+"Holt-Winters","Holt–Winters",algorithm,预测,时间序列（趋势型）,A,"alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+线性回归,"Regression",model,预测,时间序列（趋势型）,A,"alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+季节分解,"English name to be confirmed",algorithm,预测,时间序列（周期性）,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+SARIMA,ARIMA,model,预测,时间序列（周期性）,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+傅里叶变换,"Fourier Transform",algorithm,预测,时间序列（周期性）,A,"alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+小波分析,"Wavelet Transform",algorithm,预测,时间序列（周期性）,A,"alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+"灰色预测GM(1,1)","Grey Model GM(1,1)",model,预测,数据很少（<10个）,S,primary,按时间或样本组织的特征与响应；缺失值处理,留一验证、MAE/RMSE、残差诊断,false
+移动平均,"English name to be confirmed",algorithm,预测,数据很少（<10个）,A,"alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+VAR,"English name to be confirmed",algorithm,预测,多变量预测,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+多元回归,"Multiple Regression",model,预测,多变量预测,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+神经网络,Neural Network,model,预测; 分类聚类,多变量预测; 非线性预测; 多分类,B,"alternative",按时间或样本组织的特征与响应；缺失值处理 | 特征矩阵；分类需标签，聚类可无标签,滚动/分层交叉验证、MAE/RMSE等、残差诊断 | 混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,true
+支持向量回归（SVR）,"Support Vector Regression",model,预测,多变量预测,A,"alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+多项式回归,"Regression",model,预测,非线性预测,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+SVR,"Support Vector Regression",algorithm,预测,非线性预测; 中小数据预测,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+随机森林,"Random Forest",algorithm,预测; 分类聚类,非线性预测; 大数据预测（>1000样本）; 中小数据预测; 二分类; 多分类; 不平衡分类,S,"alternative; primary",按时间或样本组织的特征与响应；缺失值处理 | 特征矩阵；分类需标签，聚类可无标签,滚动/分层交叉验证、MAE/RMSE等、残差诊断 | 混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+XGBoost,XGBoost,algorithm,预测; 分类聚类,非线性预测; 大数据预测（>1000样本）; 多分类,S,"alternative; primary",按时间或样本组织的特征与响应；缺失值处理 | 特征矩阵；分类需标签，聚类可无标签,滚动/分层交叉验证、MAE/RMSE等、残差诊断 | 混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+LightGBM,LightGBM,algorithm,预测,大数据预测（>1000样本）,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+深度神经网络,Neural Network,model,预测,大数据预测（>1000样本）,B,"alternative",按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,true
+多元线性回归,"Regression",model,预测,中小数据预测,S,primary,按时间或样本组织的特征与响应；缺失值处理,滚动/分层交叉验证、MAE/RMSE等、残差诊断,false
+K近邻,k-Nearest Neighbors,algorithm,预测; 分类聚类,中小数据预测; 多分类,A,"alternative",按时间或样本组织的特征与响应；缺失值处理 | 特征矩阵；分类需标签，聚类可无标签,滚动/分层交叉验证、MAE/RMSE等、残差诊断 | 混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+"K-means聚类","K-means",algorithm,分类聚类,无标签聚类（球形）,S,primary,特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+高斯混合模型,"English name to be confirmed",model,分类聚类,无标签聚类（球形）,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+K-medoids,"English name to be confirmed",algorithm,分类聚类,无标签聚类（球形）,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+DBSCAN聚类,DBSCAN,algorithm,分类聚类,无标签聚类（任意形状）,S,primary,特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+OPTICS聚类,OPTICS,algorithm,分类聚类,无标签聚类（任意形状）,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+谱聚类,"Spectral Clustering",algorithm,分类聚类,无标签聚类（任意形状）,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+凝聚层次聚类,"Hierarchical Clustering",algorithm,分类聚类,层次聚类,S,primary,特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+分裂层次聚类,"Hierarchical Clustering",algorithm,分类聚类,层次聚类,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+BIRCH,"English name to be confirmed",algorithm,分类聚类,层次聚类,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+逻辑回归,"Logistic Regression",model,分类聚类; 概率统计,二分类; 回归分析,S,"primary; alternative",特征矩阵；分类需标签，聚类可无标签 | 样本、分组/协变量、分布假设,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性 | 残差/分布/方差检验、Bootstrap或稳健性,false
+SVM,"Support Vector Machine",algorithm,分类聚类,二分类; 文本分类,S,primary,特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+朴素贝叶斯,Naive Bayes,algorithm,分类聚类,二分类; 文本分类,S,"alternative; primary",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+决策树,"Decision Tree",algorithm,分类聚类,二分类; 多分类,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+TF-IDF,"English name to be confirmed",algorithm,分类聚类,文本分类,S,primary,特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+词向量,"English name to be confirmed",algorithm,分类聚类,文本分类,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+深度学习,"English name to be confirmed",algorithm,分类聚类,文本分类,B,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,true
+SMOTE,SMOTE,"preprocessing",分类聚类,不平衡分类,S,primary,特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+代价敏感学习,"English name to be confirmed",algorithm,分类聚类,不平衡分类,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+集成方法,"English name to be confirmed",algorithm,分类聚类,不平衡分类,A,"alternative",特征矩阵；分类需标签，聚类可无标签,混淆矩阵与F1/AUC；聚类轮廓系数/ARI/NMI和稳定性,false
+Logistic模型,Logistic Growth Model,model,机理建模,人口增长,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+指数增长模型,"Exponential Growth Model",metric,机理建模,人口增长,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+Gompertz模型,Gompertz Model,model,机理建模,人口增长,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+SIR,SIR Model,model,机理建模,传染病传播,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+SEIR模型,SEIR Model,model,机理建模,传染病传播,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+SIS,SIS Model,algorithm,机理建模,传染病传播,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+SIRD模型,SIR Model,model,机理建模,传染病传播,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+Lotka-Volterra模型,Lotka–Volterra Model,model,机理建模,生态系统,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+Leslie矩阵模型,Leslie Matrix Model,model,机理建模,生态系统,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+竞争模型,"English name to be confirmed",model,机理建模,生态系统,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+Solow模型,Solow Growth Model,model,机理建模,经济增长,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+生产函数,"Production Function",algorithm,机理建模,经济增长,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+Harrod-Domar,Harrod–Domar Model,algorithm,机理建模,经济增长,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+内生增长,"English name to be confirmed",algorithm,机理建模,经济增长,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+热传导方程,"Heat Equation",model,机理建模,热传导,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+有限差分,"Finite Difference Method",algorithm,机理建模,热传导,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+有限元法,"Finite Element Method",algorithm,机理建模,热传导,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+边界元法,"Boundary Element Method",algorithm,机理建模,热传导,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+简谐振动方程,"Simple Harmonic Oscillator",model,机理建模,振动,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+阻尼振动,"Damped Vibration",algorithm,机理建模,振动,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+受迫振动方程,"Forced Vibration",model,机理建模,振动,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+Navier-Stokes方程,"Navier–Stokes Equations",model,机理建模,流体,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+欧拉方程,"Euler Equations",model,机理建模,流体,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+"Bernoulli方程","Bernoulli Equation",model,机理建模,流体,A,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+质量作用定律,"Law of Mass Action",algorithm,机理建模,化学反应动力学,S,primary,时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,false
+"Michaelis-Menten方程","Michaelis–Menten Kinetics",model,机理建模,化学反应动力学,B,"alternative",时空观测、物理参数、初始/边界条件,守恒/量纲、网格收敛、参数可辨识性、实验对比,true
+Dijkstra,Dijkstra's Algorithm,algorithm,图论网络; 交通运输,最短路径; 路径选择,S,primary,邻接表/矩阵、边权、容量、需求 | 路网、OD、车辆/容量/时间窗、交通流参数,路径权重核算、流守恒容量、小规模最优基线 | 流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+Floyd,Floyd–Warshall Algorithm,algorithm,图论网络,最短路径,S,primary,邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+A*,A* Search,algorithm,图论网络; 交通运输,最短路径; 路径选择,S,"alternative; primary",邻接表/矩阵、边权、容量、需求 | 路网、OD、车辆/容量/时间窗、交通流参数,路径权重核算、流守恒容量、小规模最优基线 | 流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+"Bellman-Ford","English name to be confirmed",algorithm,图论网络,最短路径,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+Kruskal,Kruskal's Algorithm,algorithm,图论网络,最小生成树,S,primary,邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+Prim,Prim's Algorithm,algorithm,图论网络,最小生成树,S,primary,邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+Borůvka,"English name to be confirmed",algorithm,图论网络,最小生成树,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+"Ford-Fulkerson","Ford–Fulkerson Algorithm",algorithm,图论网络,网络流,S,primary,邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+"Edmonds-Karp","Edmonds–Karp Algorithm",algorithm,图论网络,网络流,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+"Dinic","Dinic's Algorithm",algorithm,图论网络,网络流,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+"Louvain","Louvain Method",algorithm,图论网络,社区发现,S,primary,邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+"Girvan-Newman","Girvan–Newman Algorithm",algorithm,图论网络,社区发现,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+标签传播,"English name to be confirmed",algorithm,图论网络,社区发现,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+度中心性,"Network Centrality",algorithm,图论网络,网络中心性,S,primary,邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+介数中心性,"Network Centrality",algorithm,图论网络,网络中心性,S,primary,邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+接近中心性,"Network Centrality",algorithm,图论网络,网络中心性,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+特征向量中心性,"Network Centrality",algorithm,图论网络,网络中心性,A,"alternative",邻接表/矩阵、边权、容量、需求,路径权重核算、流守恒容量、小规模最优基线,false
+M/M/1,M/M/1 Queue,algorithm,排队论,单服务台排队,S,primary,到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+M/M/1/K,M/M/1 Queue,algorithm,排队论,单服务台排队,A,"alternative",到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+M/G/1,"English name to be confirmed",algorithm,排队论,单服务台排队,A,"alternative",到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+M/M/c,M/M/c Queue,algorithm,排队论,多服务台排队,S,primary,到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+M/M/c/K,M/M/c Queue,algorithm,排队论,多服务台排队,A,"alternative",到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+M/G/c,"English name to be confirmed",algorithm,排队论,多服务台排队,A,"alternative",到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+"Jackson网络","Jackson Network",model,排队论,网络排队,S,primary,到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+BCMP网络,"English name to be confirmed",model,排队论,网络排队,A,"alternative",到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+排队网络,"English name to be confirmed",model,排队论,网络排队,A,"alternative",到达率、服务率、服务台数、容量,稳定条件、理论值与离散事件仿真、置信区间,false
+EOQ,"Economic Order Quantity",model,库存管理,确定性库存,S,primary,需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+EPQ,"Economic Production Quantity",model,库存管理,确定性库存,S,primary,需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+批量折扣模型,"English name to be confirmed",model,库存管理,确定性库存,A,"alternative",需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+报童模型,"Newsvendor Model",model,库存管理,随机库存,S,primary,需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+"(s,S)策略","(s,S) policy",model,库存管理,随机库存,S,primary,需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+"(r,Q)策略","(r,Q) policy",model,库存管理,随机库存,A,alternative,需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+连续审查策略,"Continuous Review (r,Q) Policy",model,库存管理,随机库存,A,alternative,需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+连续审查策略,"English name to be confirmed",algorithm,库存管理,随机库存,A,"alternative",需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+供应链优化,"English name to be confirmed",algorithm,库存管理,多级库存,S,primary,需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+牛鞭效应模型,"English name to be confirmed",model,库存管理,多级库存,A,"alternative",需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+博弈论,"English name to be confirmed",algorithm,库存管理,多级库存,A,"alternative",需求序列、订货/持有/缺货成本、提前期,库存平衡、缺货率、成本敏感性、仿真,false
+最大似然,Maximum Likelihood,algorithm,概率统计,参数估计,S,primary,样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+最小二乘,Least Squares,algorithm,概率统计; 数据拟合,参数估计; 参数辨识,S,primary,样本、分组/协变量、分布假设 | 自变量/因变量、权重、初值、误差,残差/分布/方差检验、Bootstrap或稳健性 | 残差图、R²仅作辅助、置信区间、交叉验证,false
+贝叶斯估计,"English name to be confirmed",algorithm,概率统计,参数估计,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+矩估计,"English name to be confirmed",algorithm,概率统计,参数估计,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+t检验,t-test,test,概率统计,假设检验,S,primary,样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+卡方检验,Chi-square Test,test,概率统计,假设检验,S,primary,样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+F检验,F-test,test,概率统计,假设检验,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+非参数检验,"English name to be confirmed",test,概率统计,假设检验,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+双因素ANOVA,ANOVA,algorithm,概率统计,方差分析,S,primary,样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+协方差分析,"English name to be confirmed",algorithm,概率统计,方差分析,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+多元方差分析,"English name to be confirmed",algorithm,概率统计,方差分析,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+一元/多元线性回归,"Regression",model,概率统计,回归分析,S,primary,样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+非线性回归,"Regression",model,概率统计,回归分析,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+随机采样,"English name to be confirmed",algorithm,概率统计,蒙特卡洛模拟,S,primary,样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+重要性采样,"English name to be confirmed",algorithm,概率统计,蒙特卡洛模拟,S,primary,样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+马尔科夫链蒙特卡洛,"Monte Carlo Simulation",algorithm,概率统计,蒙特卡洛模拟,A,"alternative",样本、分组/协变量、分布假设,残差/分布/方差检验、Bootstrap或稳健性,false
+纳什均衡,Nash Equilibrium,algorithm,博弈论,静态博弈,S,primary,收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+占优策略,"English name to be confirmed",algorithm,博弈论,静态博弈,S,primary,收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+混合策略均衡,"English name to be confirmed",algorithm,博弈论,静态博弈,A,"alternative",收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+子博弈完美均衡,Subgame-perfect Equilibrium,algorithm,博弈论,动态博弈,S,primary,收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+完美贝叶斯均衡,"English name to be confirmed",algorithm,博弈论,动态博弈,A,"alternative",收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+Shapley值,Shapley Value,algorithm,博弈论,合作博弈,S,primary,收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+核心,"English name to be confirmed",algorithm,博弈论,合作博弈,S,primary,收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+谈判集,"English name to be confirmed",algorithm,博弈论,合作博弈,A,"alternative",收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+稳定集,"English name to be confirmed",algorithm,博弈论,合作博弈,A,"alternative",收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+一价密封拍卖,"Auction Theory",algorithm,博弈论,拍卖理论,S,primary,收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+二价拍卖,"Auction Theory",algorithm,博弈论,拍卖理论,S,primary,收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+英式拍卖,"Auction Theory",algorithm,博弈论,拍卖理论,A,"alternative",收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+荷式拍卖,"Auction Theory",algorithm,博弈论,拍卖理论,A,"alternative",收益矩阵、行动集合、信息和先后顺序,均衡偏离检查、参数敏感性、边界情形,false
+直方图均衡化,"Histogram Equalization",algorithm,图像处理,图像增强,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+滤波,"English name to be confirmed",algorithm,图像处理,图像增强,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+小波变换,"Wavelet Transform",algorithm,图像处理; 信号处理,图像增强; 频域分析,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数 | 时域序列、采样率、参考信号/噪声,PSNR/SSIM、IoU/F1、定位误差和参数敏感性 | SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+形态学处理,"English name to be confirmed",algorithm,图像处理,图像增强,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+"Canny","Canny Edge Detector",algorithm,图像处理,边缘检测,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+Sobel,Sobel Operator,algorithm,图像处理,边缘检测,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+"Laplacian","English name to be confirmed",algorithm,图像处理,边缘检测,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+Roberts,"English name to be confirmed",algorithm,图像处理,边缘检测,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+阈值分割,"Threshold Segmentation",algorithm,图像处理,图像分割,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+区域增长,"Region Growing",algorithm,图像处理,图像分割,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+分水岭,"English name to be confirmed",algorithm,图像处理,图像分割,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+聚类分割,"English name to be confirmed",algorithm,图像处理,图像分割,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+SIFT,SIFT,algorithm,图像处理,特征提取,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+SURF,SURF,algorithm,图像处理,特征提取,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+HOG,HOG,algorithm,图像处理,特征提取,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+LBP,LBP,algorithm,图像处理,特征提取,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+ORB,ORB,algorithm,图像处理,特征提取,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+基于特征点配准,"English name to be confirmed",algorithm,图像处理,图像配准,S,primary,图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+基于区域配准,"English name to be confirmed",algorithm,图像处理,图像配准,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+基于变换配准,"English name to be confirmed",algorithm,图像处理,图像配准,A,"alternative",图像/掩膜、像素尺度、标注、噪声参数,PSNR/SSIM、IoU/F1、定位误差和参数敏感性,false
+小波去噪,"Wavelet Transform",algorithm,信号处理,信号去噪,S,primary,时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+滤波器,"English name to be confirmed",algorithm,信号处理,信号去噪,S,primary,时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+经验模态分解,"English name to be confirmed",algorithm,信号处理,信号去噪,A,"alternative",时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+独立成分分析,"English name to be confirmed",algorithm,信号处理,信号去噪,A,"alternative",时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+快速傅里叶变换（FFT）,"Fourier Transform",algorithm,信号处理,频域分析,S,primary,时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+短时傅里叶变换,"Fourier Transform",algorithm,信号处理,频域分析,A,"alternative",时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+匹配滤波,Matched Filter,algorithm,信号处理,信号检测,S,primary,时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+能量检测,"English name to be confirmed",algorithm,信号处理,信号检测,S,primary,时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+循环平稳检测,"English name to be confirmed",algorithm,信号处理,信号检测,A,"alternative",时域序列、采样率、参考信号/噪声,SNR、频率分辨率、检测ROC、不同噪声稳健性,false
+最小二乘法,Least Squares,algorithm,数据拟合,线性拟合,S,primary,自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+加权最小二乘,Least Squares,algorithm,数据拟合,线性拟合,A,"alternative",自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+总体最小二乘,Least Squares,algorithm,数据拟合,线性拟合,A,"alternative",自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+"Levenberg-Marquardt","Levenberg–Marquardt",algorithm,数据拟合,非线性拟合,S,primary,自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+"Gauss-Newton","Gauss–Newton",algorithm,数据拟合,非线性拟合,A,"alternative",自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+梯度下降,"English name to be confirmed",algorithm,数据拟合,非线性拟合,A,"alternative",自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+多项式拟合,"Polynomial Fitting",algorithm,数据拟合,曲线拟合,S,primary,自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+样条插值,"Spline Interpolation",algorithm,数据拟合,曲线拟合,S,primary,自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+贝塞尔曲线,"English name to be confirmed",algorithm,数据拟合,曲线拟合,A,"alternative",自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+B样条,"English name to be confirmed",algorithm,数据拟合,曲线拟合,A,"alternative",自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+极大似然,"English name to be confirmed",algorithm,数据拟合,参数辨识,S,primary,自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+贝叶斯方法,"English name to be confirmed",algorithm,数据拟合,参数辨识,A,"alternative",自变量/因变量、权重、初值、误差,残差图、R²仅作辅助、置信区间、交叉验证,false
+卡尔曼滤波,"Kalman Filter",algorithm,数据拟合; 控制理论,参数辨识; 状态估计,S,"alternative; primary",自变量/因变量、权重、初值、误差 | 状态/观测、输入、噪声、约束和参考轨迹,残差图、R²仅作辅助、置信区间、交叉验证 | 稳定性、扰动/噪声/饱和仿真、模型失配,false
+变分法,"English name to be confirmed",algorithm,控制理论,最优控制,S,primary,状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+庞特里亚金最小值原理,"English name to be confirmed",algorithm,控制理论,最优控制,A,"alternative",状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+H∞控制,"H-infinity Control",algorithm,控制理论,鲁棒控制,S,primary,状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+滑模控制,"Sliding-mode Control",algorithm,控制理论,鲁棒控制,S,primary,状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+自适应控制,"English name to be confirmed",algorithm,控制理论,鲁棒控制,A,"alternative",状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+预测控制,"English name to be confirmed",algorithm,控制理论,鲁棒控制,A,"alternative",状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+扩展卡尔曼滤波,"Kalman Filter",algorithm,控制理论,状态估计,A,"alternative",状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+粒子滤波,"English name to be confirmed",algorithm,控制理论,状态估计,A,"alternative",状态/观测、输入、噪声、约束和参考轨迹,稳定性、扰动/噪声/饱和仿真、模型失配,false
+Black-Scholes,Black–Scholes Model,model,金融建模,期权定价,S,primary,价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+二叉树,"English name to be confirmed",algorithm,金融建模,期权定价,A,"alternative",价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+蒙特卡洛,"Monte Carlo Simulation",algorithm,金融建模,期权定价,A,"alternative",价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+CVaR,Value at Risk,metric,金融建模,风险管理,S,primary,价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+GARCH,GARCH,model,金融建模,风险管理,A,"alternative",价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+Copula,Copula Model,model,金融建模,风险管理,B,"alternative",价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,true
+均值-方差模型,"Mean–Variance Model",model,金融建模,投资组合优化,S,primary,价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+单指数模型,"English name to be confirmed",metric,金融建模,投资组合优化,A,"alternative",价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+"Black-Litterman","English name to be confirmed",algorithm,金融建模,投资组合优化,A,"alternative",价格/收益序列、利率/波动率、相关性、约束,无套利边界、VaR覆盖率/ES、压力测试、样本外,false
+元胞自动机,"Cellular Automaton",algorithm,交通运输,交通流,S,primary,路网、OD、车辆/容量/时间窗、交通流参数,流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+跟驰模型,"Car-following Model",model,交通运输,交通流,S,primary,路网、OD、车辆/容量/时间窗、交通流参数,流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+流体力学模型,"English name to be confirmed",model,交通运输,交通流,A,"alternative",路网、OD、车辆/容量/时间窗、交通流参数,流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+微观仿真,"English name to be confirmed","simulation",交通运输,交通流,A,"alternative",路网、OD、车辆/容量/时间窗、交通流参数,流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+禁忌搜索,"English name to be confirmed",algorithm,交通运输,车辆路径（VRP）,A,"alternative",路网、OD、车辆/容量/时间窗、交通流参数,流守恒/容量/时间窗、基线比较、仿真或现场数据,false
+主成分分析（PCA）,"Principal Component Analysis","preprocessing",降维分析,线性降维,S,primary,特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+线性判别分析（LDA）,"Linear Discriminant Analysis",algorithm,降维分析,线性降维,A,"alternative",特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+因子分析,"English name to be confirmed",algorithm,降维分析,线性降维,A,"alternative",特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+t-SNE,t-SNE,algorithm,降维分析,非线性降维,S,primary,特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+UMAP,UMAP,algorithm,降维分析,非线性降维,S,primary,特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+等距映射,"English name to be confirmed",algorithm,降维分析,非线性降维,A,"alternative",特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+局部线性嵌入,"English name to be confirmed",algorithm,降维分析,非线性降维,A,"alternative",特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+方差选择,"English name to be confirmed",algorithm,降维分析,特征选择,S,primary,特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+相关分析,"English name to be confirmed",test,降维分析,特征选择,S,primary,特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+递归特征消除,"English name to be confirmed",algorithm,降维分析,特征选择,A,"alternative",特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+LASSO,LASSO,"preprocessing",降维分析,特征选择,A,"alternative",特征矩阵、标签（LDA时）、缺失值处理,重抽样稳定性、留出性能、解释方差/分类性能,false
+"Pearson","Pearson Correlation",algorithm,关联分析,相关性分析,S,primary,配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+"Spearman相关","Spearman Correlation",test,关联分析,相关性分析,S,primary,配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+偏相关,"English name to be confirmed",test,关联分析,相关性分析,A,"alternative",配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+典型相关分析,"English name to be confirmed",test,关联分析,相关性分析,A,"alternative",配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+"Granger因果检验","Granger Causality Test",test,关联分析,因果分析,S,primary,配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+结构方程模型,"Structural Equation Model",model,关联分析,因果分析,A,"alternative",配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+Apriori,Apriori Algorithm,algorithm,关联分析,关联规则挖掘,S,primary,配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+FP-Growth,FP-Growth Algorithm,algorithm,关联分析,关联规则挖掘,S,primary,配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+关联规则,"English name to be confirmed",algorithm,关联分析,关联规则挖掘,A,"alternative",配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+序列模式挖掘,"English name to be confirmed",algorithm,关联分析,关联规则挖掘,A,"alternative",配对样本或交易记录；时间序列需时间戳,多重比较校正、滞后敏感性、规则留出验证,false
+Prophet,Prophet,model,预测,时间序列—带外生变量,B,"supplemental",时间戳、响应及外生变量,滚动交叉验证、残差与区间覆盖率,true
+CatBoost,CatBoost,algorithm,预测,大样本非线性预测,B,"supplemental",特征矩阵、标签,时间/分层交叉验证、SHAP稳定性,true
+图神经网络,Graph Neural Network,model,图论与网络,大规模网络学习,B,"supplemental",图、节点/边标签,按图划分留出、与传统基线比较,true
+物理信息神经网络,"Physics-Informed Neural Network",model,机理建模,物理约束学习,C,"supplemental",观测、方程、边界,方程残差、边界误差、网格/噪声敏感性,true
+贝叶斯优化,"Bayesian Optimization",algorithm,优化,黑箱昂贵函数优化,B,"supplemental",历史试验点、目标值,留出/重复试验、采样效率与稳健性,true

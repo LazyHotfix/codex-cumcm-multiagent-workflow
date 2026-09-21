@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯建模设计"
+  short_description: "审计高教杯题面与数据，生成候选模型、证据包、验证计划和代码接口。"
+  default_prompt: "Use $04-cumcm-modeling to design and confirm Higher Education Cup models."
+

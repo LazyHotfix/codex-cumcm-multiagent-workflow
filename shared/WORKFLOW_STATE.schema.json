@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CUMCM Local Multi-Agent Workflow State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version","workflow_id","project_id","current_phase","stage_status","run_id","problem_scope","g1","g2","canonical","assets","pending_decisions","blocking_issues","phase_history","delivery_status"],
+  "properties": {
+    "schema_version": {"type":"string"},
+    "workflow_id": {"const":"cumcm-local-multi-agent"},
+    "project_id": {"type":"string","minLength":1},
+    "current_phase": {"type":"string","minLength":1},
+   "stage_status": {"enum":["NOT_STARTED","RUNNING","WAITING_USER","BLOCKED","PASS","FAIL"]},
+    "phase_result": {"type":["string","null"]},
+   "run_id": {"type":"string","pattern":"^run-[A-Za-z0-9._-]+$"},
+    "problem_scope": {"type":"array","items":{"type":"object","required":["problem_id","status"],"properties":{"problem_id":{"type":"string"},"status":{"enum":["in_scope","out_of_scope","blocked","complete"]},"title":{"type":"string"},"notes":{"type":"string"}},"additionalProperties":true}},
+    "g1": {"$ref":"#/$defs/gate"},
+    "g2": {"$ref":"#/$defs/gate"},
+    "canonical": {"type":"object","additionalProperties":{"$ref":"#/$defs/canonical"}},
+    "assets": {"type":"array","items":{"$ref":"#/$defs/asset"}},
+    "pending_decisions": {"type":"array","items":{"$ref":"#/$defs/decision"}},
+    "blocking_issues": {"type":"array","items":{"$ref":"#/$defs/issue"}},
+    "phase_history": {"type":"array","items":{"type":"object","required":["phase","status","run_id","started_at"],"properties":{"phase":{"type":"string"},"status":{"type":"string"},"run_id":{"type":"string"},"started_at":{"type":"string"},"ended_at":{"type":"string"},"agent":{"type":"string"},"input_hashes":{"type":"object"},"output_hashes":{"type":"object"},"notes":{"type":"string"}},"additionalProperties":true}},
+    "last_verified_hash": {"type":"string"},
+    "delivery_status": {"enum":["NOT_READY","PARTIAL","VERIFY_PASS","FULL_PASS","RELEASE_BLOCKED"]},
+    "updated_at": {"type":"string"}
+  },
+  "$defs": {
+    "gate": {"type":"object","required":["status","decision_ids","input_hash"],"properties":{"status":{"enum":["NOT_STARTED","PENDING","CONFIRMED","INVALIDATED","BLOCKED"]},"decision_ids":{"type":"array","items":{"type":"string"}},"confirmed_at":{"type":"string"},"confirmed_by":{"type":"string"},"input_hash":{"type":"string"},"invalidated_reason":{"type":"string"},"updated_at":{"type":"string"}},"additionalProperties":true},
+    "canonical": {"type":"object","required":["path","owner","status"],"properties":{"path":{"type":"string"},"owner":{"type":"string"},"status":{"enum":["planned","generated","embedded","verified","obsolete","blocked"]},"sha256":{"type":"string"},"updated_at":{"type":"string"},"lock_id":{"type":"string"}},"additionalProperties":true},
+    "asset": {"type":"object","required":["asset_id","path","status","owner","source_phase"],"properties":{"asset_id":{"type":"string"},"path":{"type":"string"},"status":{"enum":["planned","generated","needs_confirmation","embedded","verified","obsolete","blocked"]},"owner":{"type":"string"},"source_phase":{"type":"string"},"problem_id":{"type":"string"},"sha256":{"type":"string"},"depends_on":{"type":"array","items":{"type":"string"}},"paper_target":{"type":"string"}},"additionalProperties":true},
+    "decision": {"type":"object","required":["decision_id","status","question"],"properties":{"decision_id":{"type":"string"},"status":{"enum":["pending","confirmed","rejected","superseded"]},"question":{"type":"string"},"answer":{"type":"string"},"source":{"type":"string"},"created_at":{"type":"string"},"confirmed_at":{"type":"string"}},"additionalProperties":true},
+    "issue": {"type":"object","required":["issue_id","severity","status","owner"],"properties":{"issue_id":{"type":"string"},"severity":{"enum":["critical","high","medium","low","info"]},"status":{"enum":["open","closed","waived"]},"owner":{"type":"string"},"message":{"type":"string"},"evidence":{"type":"string"},"return_phase":{"type":"string"}},"additionalProperties":true}
+  }
+}

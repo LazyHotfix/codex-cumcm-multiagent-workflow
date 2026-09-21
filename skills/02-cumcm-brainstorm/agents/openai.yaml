@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯需求与方案确认"
+  short_description: "确认高教杯题目范围、交付形式、时间预算、权限边界和执行方案。"
+  default_prompt: "Use $02-cumcm-brainstorm to confirm the Higher Education Cup task design."
+

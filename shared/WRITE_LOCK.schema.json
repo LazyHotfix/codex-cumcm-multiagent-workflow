@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"CUMCM File Write Lock",
+  "type":"object",
+  "required":["lock_id","path","owner_agent","run_id","reason","input_sha256","created_at","status"],
+  "properties":{
+    "lock_id":{"type":"string"},
+    "path":{"type":"string"},
+    "owner_agent":{"type":"string"},
+    "run_id":{"type":"string"},
+    "reason":{"type":"string"},
+    "input_sha256":{"type":"string"},
+    "output_sha256":{"type":"string"},
+    "created_at":{"type":"string"},
+    "released_at":{"type":"string"},
+    "status":{"enum":["HELD","RELEASED","CONFLICT"]}
+  },
+  "additionalProperties":false
+}

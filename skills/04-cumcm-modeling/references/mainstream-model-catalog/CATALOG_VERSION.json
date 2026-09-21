@@ -1,0 +1,40 @@
+{
+  "catalog_id": "MMC-2026-08-28-CLEAN1",
+  "schema_version": "1.0",
+  "status": "locked",
+  "created_at": "2026-08-28",
+  "locked_at": "2026-08-28",
+  "source": "用户提供的主流模型表及优秀论文整理资料",
+  "cleaning_summary": [
+    "修复 GM(1,1)、(s,S)、(r,Q) 逗号拆裂",
+    "同步正向矩阵、反向索引和名称规范表",
+    "保留未知英文名的 needs_human_review 标记，不编造名称"
+  ],
+  "selection_mode": "adaptive_candidates_then_user_confirmation",
+  "selection_workflow": [
+    "读取题面和附件",
+    "识别题型、数据规模、变量关系和约束",
+    "查询主流模型目录",
+    "筛选满足前提条件的方法",
+    "按题意、数据适配性、解释性、验证可行性和复现性排序",
+    "输出前两名或前三名候选模型",
+    "解释适合与不适合原因",
+    "暂停等待用户确认",
+    "确认后锁定当前题目模型"
+  ],
+  "files": {
+    "PROBLEM_TO_METHOD_MATRIX.csv": "3ea1fd7ae45314843687384b7b45f04ced1f0e0119084d9f338ead774bfd1fc1",
+    "METHOD_TO_PROBLEM_INDEX.csv": "2639197571d13f7c70de6c8b77fbea6d03ec56b0129fd8a9414e259f2f35c064",
+    "MODEL_SELECTION_RULES.md": "b0fce43a433d75e1a1db4bfab2b72e17648e34c49f61fe05f34df55e50e8bd39",
+    "MAINSTREAM_MODEL_CATALOG.csv": "a92b4734dd75f65622af80cb163b7711fa1d5bf0ca758953b240306281fd8da7",
+    "MODEL_NAME_NORMALIZATION.csv": "e2ed418ab41c3b2a4aa64414866b62e44bcf1a0c765f97b39ea245c320206051",
+    "MAINSTREAM_MODEL_CATALOG.md": "8e2c1122dd2ba73dcee0ffd3adf6ade13abf5b999f24b0e87fb0921741ddcc2b",
+    "CATALOG_CLEANING_REPORT.md": "a44c6c2211d5a73196c719229cc961797c11ffac22ff42a45e354f518ea1e498"
+  },
+  "validation": {
+    "csv_files_field_consistency": "passed",
+    "known_split_records": "fixed",
+    "machine_source": "MAINSTREAM_MODEL_CATALOG.csv",
+    "human_preference_table": "not_used_as_global_selector"
+  }
+}

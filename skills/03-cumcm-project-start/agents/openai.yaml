@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯项目启动"
+  short_description: "恢复高教杯项目现场，审计版本、路径、题目范围、决策和交付物。"
+  default_prompt: "Use $03-cumcm-project-start to initialize or resume a Higher Education Cup project."
+

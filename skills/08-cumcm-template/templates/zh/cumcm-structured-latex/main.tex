@@ -1,0 +1,89 @@
+% !TEX program = xelatex
+% 结构化国赛论文模板：基于老师指定的 cumcmthesis.cls。
+% 编译：xelatex -interaction=nonstopmode main.tex（连续两遍）。
+\documentclass[withoutpreface,bwprint]{cumcmthesis}
+
+\usepackage{mathtools}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% 摘要中的视觉锚点：每段仅对模型名、核心指标或结论短语适度加粗。
+\newcommand{\abstractkey}[1]{\textbf{#1}}
+
+% 老师模板的摘要、关键词排版偏好。
+\makeatletter
+\renewcommand*{\mcm@cap@abstractname}{摘\quad 要}
+\renewcommand*{\mcm@cap@keywordsname}{关键词}
+\makeatother
+
+\title{论文题目}
+\tihao{C}
+\baominghao{}
+\schoolname{}
+\membera{}
+\memberb{}
+\memberc{}
+\supervisor{}
+\yearinput{2026}
+\monthinput{08}
+\dayinput{24}
+
+% 附录代码风格：真实交付时保持与代码目录一致。
+\lstdefinestyle{appendixpython}{
+  language=Python,
+  frame=single,
+  framesep=5pt,
+  framerule=0.55pt,
+  rulecolor=\color{gray!65},
+  backgroundcolor=\color{white},
+  basicstyle=\fontsize{7.2pt}{9.2pt}\selectfont\ttfamily,
+  keywordstyle=\color[rgb]{0.08,0.24,0.72},
+  commentstyle=\color[rgb]{0.08,0.50,0.18},
+  stringstyle=\color[rgb]{0.68,0.10,0.52},
+  showstringspaces=false,
+  columns=fullflexible,
+  keepspaces=true,
+  breaklines=true,
+  breakatwhitespace=false,
+  tabsize=4,
+  numbers=none,
+  aboveskip=0.6em,
+  belowskip=0.8em
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract}
+\keywords{关键词一\quad 关键词二\quad 关键词三\quad 关键词四}
+\end{abstract}
+
+% 顶层结构：问题重述、模型假设、符号说明，然后逐题建模与求解。
+\input{sections/1_restatement}
+\input{sections/2_assumptions}
+\input{sections/3_symbols}
+\input{sections/4_problem1}
+\input{sections/5_problem2}
+\input{sections/6_problem3}
+\input{sections/7_problem4}
+\input{sections/8_sensitivity}
+\input{sections/9_evaluation}
+
+\clearpage
+\begingroup
+\small
+\input{references}
+\endgroup
+
+\clearpage
+\begin{appendices}
+\section{代码结构与结果复现}
+\input{sections/A_code}
+\end{appendices}
+
+\end{document}

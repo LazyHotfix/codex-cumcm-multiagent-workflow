@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯技术图"
+  short_description: "生成有论证作用的技术路线图、求解流程图、模型图和代码结构图。"
+  default_prompt: "Use $07-cumcm-drawio to create evidence-based technical diagrams."
+

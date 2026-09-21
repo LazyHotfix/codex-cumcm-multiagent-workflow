@@ -1,0 +1,14 @@
+% 附录首页先放真实代码结构图；生成论文时将 code_structure.pdf 放入 figures/。
+\IfFileExists{figures/code_structure.pdf}{%
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.92\textwidth]{figures/code_structure.pdf}
+    \caption{代码结构与运行关系}
+  \end{figure}
+}{}
+
+\subsection{代码目录与复现入口}
+说明公共模块、各问题脚本、总入口、结果目录和复现命令。
+
+\subsection{核心代码}
+使用 `listings` 按公共模块、问题一至问题四、绘图、总入口和校验脚本分节引入真实代码。

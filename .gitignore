@@ -1,0 +1,48 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Local Codex/runtime configuration
+.codex/
+.codex-plugin/
+config/
+*.local
+*.secret
+.env
+.env.*
+
+# Generated workflow and review outputs
+reports/
+archive/
+paper/build/
+paper/*.pdf
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+tests/.tmp-*/
+tests/**/work/
+tests/**/reviewed/
+tests/**/rendered/
+math-modeling-review-cases/
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Tool caches and logs
+*.log
+*.cache

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "workflow_id": "cumcm-local-multi-agent",
+  "project_id": "example-cumcm-project",
+  "current_phase": "01-cumcm-doctor",
+  "stage_status": "NOT_STARTED",
+  "phase_result": null,
+  "run_id": "run-20260922-000000",
+  "problem_scope": [],
+  "g1": {"status":"NOT_STARTED","decision_ids":[],"input_hash":""},
+  "g2": {"status":"NOT_STARTED","decision_ids":[],"input_hash":""},
+  "canonical": {},
+  "assets": [],
+  "pending_decisions": [],
+  "blocking_issues": [],
+  "phase_history": [],
+  "last_verified_hash": "",
+  "delivery_status": "NOT_READY",
+  "updated_at": "2026-09-22T00:00:00+08:00"
+}

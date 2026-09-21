@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯论文终审"
+  short_description: "从评委视角独立审阅最终论文的结构、行文、图表、视觉和复现性。"
+  default_prompt: "Use $13-cumcm-paper-review to review the final paper."
+

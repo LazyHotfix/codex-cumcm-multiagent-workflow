@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯 Word 协作"
+  short_description: "生成可编辑 Word 协作副本，渲染检查并将实质修改回流到事实源。"
+  default_prompt: "Use $12-cumcm-docx to create and inspect a Word collaboration copy."
+

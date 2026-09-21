@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯论文模板锁定"
+  short_description: "锁定并验证高教杯论文模板、类文件、入口文件、版式参数和哈希。"
+  default_prompt: "Use $08-cumcm-template to lock and validate the paper template."
+

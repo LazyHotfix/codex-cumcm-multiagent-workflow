@@ -1,0 +1,27 @@
+{
+  "workflow_id": "cumcm-local-multi-agent",
+  "workflow_version": "0.2.0-local",
+  "entry_phase": "01-cumcm-doctor",
+  "phases": [
+    {"id":"01-cumcm-doctor","owner":"doctor-agent","required":true,"user_gate":false,"next":"02-cumcm-brainstorm"},
+    {"id":"02-cumcm-brainstorm","owner":"brainstorm-agent","required":true,"user_gate":true,"next":"03-cumcm-project-start"},
+    {"id":"03-cumcm-project-start","owner":"project-start-agent","required":true,"user_gate":true,"next":"04-cumcm-modeling"},
+    {"id":"04-cumcm-modeling","owner":"modeling-agent","required":true,"user_gate":false,"next":"G1-model-confirmation"},
+    {"id":"G1-model-confirmation","owner":"orchestrator","required":true,"user_gate":true,"next":"05-cumcm-coding-visual"},
+    {"id":"05-cumcm-coding-visual","owner":"coding-agent","required":true,"user_gate":false,"next":"06-cumcm-result-mvp"},
+    {"id":"06-cumcm-result-mvp","owner":"result-review-agent","required":true,"user_gate":false,"next":"G2-result-confirmation"},
+    {"id":"G2-result-confirmation","owner":"orchestrator","required":true,"user_gate":true,"next":"07-cumcm-drawio"},
+    {"id":"07-cumcm-drawio","owner":"figure-agent","required":false,"user_gate":false,"next":"08-cumcm-template"},
+    {"id":"08-cumcm-template","owner":"template-agent","required":true,"user_gate":false,"next":"09-cumcm-writing"},
+    {"id":"09-cumcm-writing","owner":"writing-agent","required":true,"user_gate":false,"next":"10-cumcm-latex"},
+    {"id":"10-cumcm-latex","owner":"latex-agent","required":true,"user_gate":false,"next":"11-cumcm-verify"},
+    {"id":"11-cumcm-verify","owner":"verify-agent","required":true,"user_gate":true,"next":"12-cumcm-docx"},
+    {"id":"12-cumcm-docx","owner":"docx-agent","required":false,"user_gate":false,"next":"13-cumcm-paper-review"},
+    {"id":"13-cumcm-paper-review","owner":"paper-review-agent","required":true,"user_gate":true,"next":null}
+  ],
+  "parallel_windows": [
+    ["07-cumcm-drawio","08-cumcm-template"],
+    ["11-cumcm-verify:code-audit","11-cumcm-verify:pdf-visual-audit"]
+  ],
+  "hard_gates": ["G1-model-confirmation","G2-result-confirmation","11-cumcm-verify"]
+}

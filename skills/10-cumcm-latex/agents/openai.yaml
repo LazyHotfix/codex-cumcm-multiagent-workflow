@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯 LaTeX 编译"
+  short_description: "执行双次 XeLaTeX 编译，检查日志、交叉引用、版式和页面渲染。"
+  default_prompt: "Use $10-cumcm-latex to compile and inspect the paper."
+

@@ -1,0 +1,18 @@
+new_id,local_skill,source_skill,kind,local_assets,status,notes
+00,00-cumcm-orchestrator,new,control-plane,SKILL.md;orchestrator/*;shared/*,complete,唯一总控与门禁/写锁/失效传播 owner
+01,01-cumcm-doctor,doctor,rewrite,SKILL.md,complete,环境预检不自动安装系统工具
+02,02-cumcm-brainstorm,brainstorming,adapted,SKILL.md;references/*;scripts/*,complete,归档规范提示和视觉 companion 资产
+03,03-cumcm-project-start,1start-mathmodel,rewrite,SKILL.md,complete,现场恢复和版本审计
+04,04-cumcm-modeling,2analysis-modeling,adapted,SKILL.md;references/mainstream-model-catalog/*,complete,主流模型目录作为只读版本化输入
+G1,G1-model-confirmation,new,gate,orchestrator/gates/G1_MODEL_CONFIRMATION.md,complete,只允许用户明确确认
+05,05-cumcm-coding-visual,3coding-visual,rewrite,SKILL.md,complete,代码/结果/数据图 owner
+06,06-cumcm-result-mvp,3-5-result-mvp,rewrite,SKILL.md,complete,MVP/result_ai_review/G2 packet
+G2,G2-result-confirmation,new,gate,orchestrator/gates/G2_RESULT_CONFIRMATION.md,complete,只允许用户明确确认
+07,07-cumcm-drawio,4drawio,rewrite,SKILL.md,complete,只负责非数据型技术图
+08,08-cumcm-template,cumcm-official-template,adapted,SKILL.md;templates/zh/cumcm-structured-latex/*,complete,中文模板和版本锁
+09,09-cumcm-writing,5writing-structured,adapted,SKILL.md;references/section-blueprints.md,complete,受控结构化写作
+10,10-cumcm-latex,5writing,adapter,SKILL.md;references/UPSTREAM_SCOPE.md,complete,不复制大型旧英文模板运行时
+11,11-cumcm-verify,6verity,adapted,SKILL.md;scripts/writing_check.sh,complete,最终证据链和提交包验收
+12,12-cumcm-docx,documents:documents,adapter,SKILL.md;references/UPSTREAM_SCOPE.md,complete,使用 bundled documents runtime
+13,13-cumcm-paper-review,math-modeling-paper-review,adapted,SKILL.md;references/*;scripts/review_case_tool.py,complete,独立终审且默认只读
+

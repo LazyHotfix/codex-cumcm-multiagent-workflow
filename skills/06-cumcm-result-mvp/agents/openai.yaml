@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯结果 MVP"
+  short_description: "生成逐问结果 MVP，审查实现一致性、题目合理性和证据可用性。"
+  default_prompt: "Use $06-cumcm-result-mvp to create the result MVP and prepare G2."
+

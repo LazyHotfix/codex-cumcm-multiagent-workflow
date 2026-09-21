@@ -1,0 +1,27 @@
+{
+  "template_id": "CUMCM-STRUCTURED-2025-08-09-v2.8",
+  "status": "locked_baseline",
+  "class_file": "cumcmthesis.cls",
+  "class_sha256": "b0e3598a6afac4152cafb380946d2a73e6e15b211b598d2f9daf122b970cab93",
+  "main_file": "main.tex",
+  "main_sha256": "05192165058f7c91597369dbdc42542740c03e9d361198ac1a1ccfb7037a0db2",
+  "engine": "xelatex",
+  "layout": {
+    "paper": "A4",
+    "columns": 1,
+    "margins_mm": {"top": 25, "bottom": 25, "left": 25, "right": 25},
+    "line_spacing": 1.38,
+    "first_line_indent": "2em"
+  },
+  "structure": {
+    "abstract_title": "摘　要",
+    "keywords_label": "关键词：",
+    "problem_section_pattern": "问题 X 的建模与求解",
+    "required_argument_units": ["问题分析", "模型准备", "算法选择", "模型建立与求解", "问题 X 小结"],
+    "figure_caption": "below",
+    "table_caption": "above",
+    "references_page_break": true,
+    "appendix_page_break": true
+  },
+  "source_note": "用户确认的 zh/cumcm-structured-latex 模板工程；未经批准不得修改 cumcmthesis.cls。"
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯环境预检"
+  short_description: "检查高教杯项目依赖、Python、XeLaTeX 和图形工具，并生成可复现环境报告。"
+  default_prompt: "Use $01-cumcm-doctor to inspect the Higher Education Cup environment."
+

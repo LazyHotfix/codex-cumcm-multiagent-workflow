@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯代码与数据图"
+  short_description: "实现已确认模型，生成可复现代码、结果文件、数据图和结果索引。"
+  default_prompt: "Use $05-cumcm-coding-visual to implement the confirmed models."
+

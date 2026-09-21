@@ -1,0 +1,5 @@
+interface:
+  display_name: "高教杯总控编排器"
+  short_description: "编排高教杯数学建模阶段、门禁、状态、文件锁与专业智能体。"
+  default_prompt: "Use $00-cumcm-orchestrator to coordinate the complete Higher Education Cup workflow."
+
